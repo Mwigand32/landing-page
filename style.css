@@ -5,6 +5,9 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    height: 100vh;
 }
 
 .nav {
@@ -15,6 +18,8 @@ body {
 
 .links {
     display: flex;
+    list-style: none;
+    gap: 15px;
 }
 
 .low-header {
@@ -31,6 +36,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 1000;
 }
 
 .random-squares {
@@ -46,6 +54,9 @@ body {
 .thunder {
     display: flex;
     justify-content: flex-end;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .advert {
@@ -69,4 +80,22 @@ body {
 .header, .footer {
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+a, .subtext {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.awesome {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 1000;
 }
