@@ -12,7 +12,7 @@ body {
 
 .nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -25,11 +25,28 @@ body {
 .low-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.header-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    background-color: rgb(142, 147, 150);
 }
 
 .mid {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .random-header {
@@ -43,12 +60,34 @@ body {
 
 .random-squares {
     display: flex;
+    justify-content: space-around;
+}
+
+.random-squares div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+}
+
+.square {
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10%;
+    width: 150px;
+    height: 150px;
 }
 
 .thor {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .thunder {
