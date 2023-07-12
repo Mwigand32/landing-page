@@ -12,7 +12,7 @@ body {
 
 .nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -28,19 +28,27 @@ body {
     align-items: center;
 }
 
+.left-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 500px;
+    gap: 10px;
+}
+
 .header-image {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 600px;
+    width: 500px;
     height: 200px;
     background-color: rgb(142, 147, 150);
 }
 
 .mid {
     display: flex;
+    flex: 1;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .content {
@@ -100,9 +108,14 @@ body {
 
 .advert {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     background-color: #3882F6;
     color: #F9FAF8;
+    gap: 125px;
+    padding: 30px;
+    width: 800px;
+    border-radius: 8px;
 }
 
 .action {
@@ -121,20 +134,43 @@ body {
     color: #F9FAF8;
 }
 
-.logo {
+.logo, .action-header {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 700;
 }
 
-a, .subtext {
+a, .subtext, .action-sub {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.centertext {
+    text-align: center;
 }
 
 .awesome {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 1000;
+}
+
+.signup1, .signup2 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 700;
+    padding: 5px 20px;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.signup1 {
+    border-style: none;
+}
+
+.signup2 {
+    border-style: solid;
+    border-color: #F9FAF8;
 }
